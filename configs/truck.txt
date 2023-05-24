@@ -1,0 +1,23 @@
+
+dataset_name = tankstemple
+datadir = ../datasets/TanksAndTemple/Truck
+expname = nrff_truck
+basedir = ./log
+
+n_iters = 30000
+batch_size = 4096
+
+N_voxel_init = 2097156 # 128**3
+N_voxel_final = 27000000 # 300**3
+upsamp_list = [2000,3000,4000,5500,7000]
+update_AlphaMask_list = [2000,4000]
+
+N_vis = 5
+vis_every = 10000
+
+render_test = 1
+model_name = NRFF
+fea2denseAct = softplus
+
+L1_weight_inital = 8e-5
+L1_weight_rest = 4e-5
