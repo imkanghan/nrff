@@ -49,6 +49,7 @@ If you find this code useful, please cite:
         author={Han, Kang and Xiang, Wei},
         title={Multiscale Tensor Decomposition and Rendering Equation Encoding for View Synthesis},
         booktitle={The IEEE / CVF Computer Vision and Pattern Recognition Conference},
+        pages={4232--4241},
         year={2023}
     }
 
